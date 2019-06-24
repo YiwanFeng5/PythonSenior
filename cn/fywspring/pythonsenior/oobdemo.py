@@ -107,6 +107,7 @@ class Parent:       # 定义父类
     def setAttr(self,attr):
         Parent.parentAttr = attr
     def getAttr(self):
+        return self.parentAttr
 
 # class Child(Parent):    # 定义子类
 #     def __init__(self):
